@@ -123,6 +123,13 @@ def main():
             file_name='predictions.csv',
             mime='text/csv',
         )
+# Footer
+st.markdown("""
+Created by [Tassawar Abbas](https://yourwebsite.com) | 
+Email: abbas829@gmail.com | 
+GitHub: [abbas829](https://github.com/abbas829)
+""")
 
 if __name__ == "__main__":
     main()
+
